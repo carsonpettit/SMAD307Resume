@@ -1,0 +1,70 @@
+
+body {
+  background-color: rgba(0, 150, 450, 0.5);
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  color: darkred
+}
+
+p {
+  font-family: Courier, monospace;
+  color: green; font-size: 18px
+}
+
+h2 {
+	font-family: "Times New Roman", serif;
+	color: darkred; font-size: 22px
+}
+
+h3 {font-family: "Times New Roman", serif;
+	color: blue; font-size: 20px;
+ text-decoration: underline;}
+
+h4 {font-family: "Times New Roman", serif;
+color: deeppink; font-size: 18px}
+
+h5 {
+  font-family: Courier, monospace;
+  color: hotpink;
+  font-size: 16px
+}
+
+h6 {font-family: Courier, monospace;
+  color: green;
+font-size: 14px}
+
+ul {font-family: Courier, monospace;
+	font-weight: bold;
+	color: darkred;
+	font-size: 18px;
+
+
+  list-style-image: url("bone2.png");
+  padding-left: 40px;     
+  width: fit-content;   
+  margin: 0 auto;  
+}
+
+a:link {
+  color: green; 
+}
+
+a:visited {
+  color: black; 
+}
+
+a:hover {
+  color: red; 
+}
+
+a:active {
+  color: orange; 
+}
+
