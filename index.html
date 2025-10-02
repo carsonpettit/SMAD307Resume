@@ -1,44 +1,83 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Murphy's Resume in Bootstrap">
+    <meta name="author" content="Carson Pettit">
+    <title>Murphy's Resume</title>
 
-	<head>
-			<title>
-			Murphy Resume
-		</title>
-		<meta name="author" content="Murphy Pettit">
-		<meta name="description" content="Resume for Murphy">
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- END LOADING BOOTSTRAP CSS -->
 
-		<link rel="stylesheet" href="style.css">
-		
-	</head>
+    
+    <!-- Custom styles - add your own CSS to this stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+   <div class="container">
+    <div id="header" class="row">
 
-	<body>
-		<h1>Murphy</h1>
- <img src="Murphy.jpg" alt="Big sheepadoodle dog">
- <h2>Brain Surgeon</h2>
- <br>
+      <div class="col-md-10">
+<img src="Murphy.jpg" alt="Big sheepdog">
+    </div> <!-- end header photo -->
 
-<p>
-<h3>Contact</h3>
-<h4>Email: murphythesheepadoodle@mac.com <br>
-Phone: (555) 704-4887 <br>
-Location: Harrisonburg, VA <br>
-LinkedIn: <a href="https://linkedin.com" target="_blank">linkedin.com/in/MurphyPettit</a></h4>
-<br>
-<h3>Brain Surgeon</h3>
+<div class="col-md-2">
+  <h3 class="mb-3">Contact:</h3>
+      <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Email:
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        murphythesheepadoodle@mac.com
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Phone:
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        (555) 704-4887
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        LinkedIn:
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       <a href="https://linkedin.com" target="_blank">linkedin.com/in/MurphyPettit</a>
+      </div>
+    </div>
+  </div>
+</div> <!-- end bootstrap accordian -->
+ </div> <!-- end accordion col -->
+
+    </div> <!-- end row header -->
+
+<div class="row">
+        <div class="col-lg-4 col-md-6">
+           <h3>Brain Surgeon</h3>
 <p><em>Compassionate and skilled brain surgeon with years of experience performing complex neurological procedures. 
 Graduated Summa Cum Laude from Trinity College, Dublin, and currently serving as Lead Brain Surgeon at Sentara Hospital. 
 Known for precision, quick problem-solving, and dedication to improving patients’ lives.</em></p>
 <p>
-<h3>Skills</h3>
-<ul>
-				<li>Excellent Surgeon</li>
-				<li>Herding dog</li>
-				<li>Fluent in French &amp; Mandarin</li>
-				<li>100 pounds</li>
-			</ul>
-<br>
-<h3>Education</h3>
+        </div> <!-- end div left column -->
+        <div class="col-lg-5 col-md-6">
+                   <h3>Education</h3>
 <h4>Trinity College – Doctorate Degree</h4>
 <h5>Dublin, Ireland (2012-2021)</h5>
 <h6>Graduated Summa Cum Laude <br>
@@ -50,4 +89,24 @@ TA for biology, anatomy, &amp; chemistry classes </h6><br>
 <h6>Really good at brain surgery and pretty much everything <br>
 Saves so many lives and makes everyone smarter after </h6><br>
 <p>Sentara Hospital Website: <a href="https://www.sentara.com/" target="_blank"> Sentara Health</a></p>
-</body>
+        </div> <!-- end div center column -->
+        <div class="col-lg-3 col-md-12">
+<h3>Skills</h3>
+<ul>
+        <li>Excellent Surgeon</li>
+        <li>Herding dog</li>
+        <li>Fluent in French &amp; Mandarin</li>
+        <li>100 pounds</li>
+      </ul>
+        </div> <!-- end div right column -->
+
+</div> <!-- body content row -->
+
+   </div> <!-- end container -->
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

@@ -1,3 +1,24 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+#header { background-color: navy; 
+ font-weight: bold; }
+
+.container { border: 5px solid navy;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.col-md-2 h3, h4, h4 a {
+  color: deeppink !important;
+}
+
+.accordion-button {
+  color: deeppink; font-weight: bold;
+}
+
+.accordion-body {
+  color: navy;
+}
 
 body {
   background-color: rgba(0, 150, 450, 0.5);
@@ -15,6 +36,7 @@ h1 {
 
 p {
   font-family: Courier, monospace;
+   font-weight: bold;
   color: green; font-size: 18px
 }
 
@@ -24,25 +46,29 @@ h2 {
 }
 
 h3 {font-family: "Times New Roman", serif;
+	font-weight: bold;
 	color: blue; font-size: 20px;
  text-decoration: underline;}
 
 h4 {font-family: "Times New Roman", serif;
+	font-weight: bold;
 color: deeppink; font-size: 18px}
 
 h5 {
   font-family: Courier, monospace;
+  font-weight: bold;
   color: hotpink;
   font-size: 16px
 }
 
 h6 {font-family: Courier, monospace;
+	 font-weight: bold;
   color: green;
 font-size: 14px}
 
 ul {font-family: Courier, monospace;
 	font-weight: bold;
-	color: darkred;
+	color: navy;
 	font-size: 18px;
 
 
@@ -57,7 +83,7 @@ a:link {
 }
 
 a:visited {
-  color: black; 
+  color: navy; 
 }
 
 a:hover {
@@ -67,4 +93,3 @@ a:hover {
 a:active {
   color: orange; 
 }
-
